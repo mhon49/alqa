@@ -24,7 +24,7 @@ function generateImage(e) {
       // Update image source
       const userImage = document.getElementById("user-image");
       userImage.src = canvas.toDataURL("image/png");
-      userImage.style.display = "block";
+      userImage.style.display = "none";
   
       // Update download link
      /*  const downloadLink = document.getElementById("download-link");
