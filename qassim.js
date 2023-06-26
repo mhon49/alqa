@@ -37,9 +37,7 @@ function generateImage(e) {
     };
   }
 
-function downloadFile(filePath){
-  var link = document.createElement('a');
-  link.href = filePath;
-  link.download = "image.png";
-  link.click();
+function displayImage(filePath){
+  var Image = getElementById("userImage");
+  image.src = "image.png"
 }
